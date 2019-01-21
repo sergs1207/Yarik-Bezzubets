@@ -1,6 +1,6 @@
 package Lesson1;
 
-public class Daylightlamps 
+public class DaylightLamps 
 
 {   
 	String brand; //назва виробника. Тип даних - текстовий рядок String.
