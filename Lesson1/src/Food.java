@@ -10,12 +10,10 @@ public class Food
     boolean rawFood;  //атрибут можливості вживання в сирому вигляді, тип даних - булева змінна, приймаюча значення true чи false.
     boolean glutenFree; //атрибут наявності глютену в їжі, тип даних - булева змінна, приймаюча значення true чи false.
     
-    void toEatPeoples(){
-    	//призначено для споживання людьми
+    void eatFood(){
 }
 
-    void toEatAnimals(){
-    	//призначено
+    void throwInTrash(){
 }
 
 }

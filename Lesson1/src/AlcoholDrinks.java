@@ -8,5 +8,15 @@ public class AlcoholDrinks
 	byte ABV; //вміст спирту в напої.
     float bottleVolume; //об'єм бутилки.
     boolean isUsedInCocktail; // чи підходить алкогольний напій для поєднання із іншими напоями, тип даних - булева змінна, приймаюча значення true чи false.
+   
+    	void startShakeaCocktail() {
+    }
 
+        void startDrink(){
+    }
+
+        void stopDrink(){
+    }
+
+    }
 }
