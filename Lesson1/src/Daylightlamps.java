@@ -3,20 +3,19 @@ package Lesson1;
 public class Daylightlamps 
 
 {   
-	String manufacturer; //назва виробника. Тип даних - текстовий рядок String.
-	String model; // назва моделі.
-	int numberOfEngines; //кількість двигунів, тип даних – цілі числа int.
-    int weight; //вага дрону, тип даних – цілі числа int
-    int flightTime; //тривалість польоту від одного заряду
-    boolean smartphoneControl; //підтримка керування дроном зі смартфону, тип даних - булева змінна, приймаюча значення true чи false.
+	String brand; //РЅР°Р·РІР° РІРёСЂРѕР±РЅРёРєР°. РўРёРї РґР°РЅРёС… - С‚РµРєСЃС‚РѕРІРёР№ СЂСЏРґРѕРє String.
+	String model; //РЅР°Р·РІР° РјРѕРґРµР»С–.
+	int partNumber; //РЅРѕРјРµСЂ РїР°СЂС‚С–С—, С‚РёРї РґР°РЅРёС… вЂ“ С†С–Р»С– С‡РёСЃР»Р° int.
+    int weight; //РІР°РіР° Р»Р°РјРїРё, С‚РёРї РґР°РЅРёС… вЂ“ С†С–Р»С– С‡РёСЃР»Р° int
+    boolean wifiControl; //РїС–РґС‚СЂРёРјРєР° РєРµСЂСѓРІР°РЅРЅСЏ Р·С– СЃРјР°СЂС‚С„РѕРЅСѓ, С‚РёРї РґР°РЅРёС… - Р±СѓР»РµРІР° Р·РјС–РЅРЅР°, РїСЂРёР№РјР°СЋС‡Р° Р·РЅР°С‡РµРЅРЅСЏ true С‡Рё false.
     
-    void startFlight(){
+    void turnOn(){
 }
     
-    void stopFlight(){
+    void turnOff(){
     }
     
-    void activateEmergencyLanding(){
-    	//активація аварійної посадки
+    void activateEnergySafeMode(){
+    	//Р°РєС‚РёРІР°С†С–СЏ СЂРµР¶РёРјСѓ Р·Р±РµСЂРµР¶РµРЅРЅСЏ РµРЅРµСЂРіС–С—
     }
 }
