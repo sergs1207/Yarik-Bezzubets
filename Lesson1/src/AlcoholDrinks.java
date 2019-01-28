@@ -12,12 +12,25 @@ public class AlcoholDrinks
 		alcoholCocktail = true;
     }
 
-	public void addNonAlcoholDrink(){
-		byte ABV;
-		ABV = 0,01;
+	public void stopShakeCocktail() {
+		boolean alcoholCocktail;
+		alcoholCocktail = false;
     }
 
-	public void addMoreABV(){
-		//збільшує значення атрибута ABV на 5.
+	public void addNonAlcoholDrink(){
+		float ABV;
+		ABV = 0,01;
+    }
+	
+	private void addMoreABV(){
+		//збільшує значення атрибуту ABV на 5.
+    }
+	
+	private void pourAHalfLiter(){
+		//збільшує значення атрибуту bottleVolume на 0,5.
+    }
+
+	private void pourALiter(){
+		//збільшує значення атрибутe bottleVolume на 1.
     }
 }

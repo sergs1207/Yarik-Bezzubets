@@ -21,4 +21,19 @@ public class SnowRemovalMachines
 		boolean machineHeadLight;
 		machineHeadLight = true;
 	}
+	
+	private void turnOffHeadlight(){
+		boolean machineHeadLight;
+		machineHeadLight = false;
+	}
+	
+	private void startElectricRun(){
+		boolean electricStart;
+		electricStart = true;
+	}
+	
+	private void stopElectricRun(){
+		boolean electricStart;
+		electricStart = false;
+	}
 }

@@ -20,4 +20,17 @@ public class Food
 	public void startFreezingFood(){
 		//збільшення атрибута foodShelfLife на 10.
 	}
+	
+	private void stopFreezingFood(){
+		//зменшення атрибута foodShelfLife на 10.
+	}
+	
+	private void boilInWater(){
+		//зменшення атрибуту foodProteins на 5.
+			}
+	
+	private void eatRawFood(){
+		boolean rawFood;
+		rawFood = true;
+	}
 }

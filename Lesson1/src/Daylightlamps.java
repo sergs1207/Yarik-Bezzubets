@@ -19,7 +19,15 @@ public class DaylightLamps
 		lampBrightness = 0;
 	}
 
-	public void enableEnergySafeMode(){
+	public void turnOnWarmTone(){
+		//збільшує значення атрибута lampColorTone на 50
+	}
+	
+	private void turnOnColdTone(){
+		//зменшує значення атрибута lampBrightness на 50
+	}
+
+	private void enableEnergySafeMode(){
 		boolean lampSafeMode;
 		lampSafeMode = true
 	}
