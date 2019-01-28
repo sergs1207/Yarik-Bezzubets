@@ -6,7 +6,7 @@ public class DaylightLamps
 	int lampPartNumber; //номер партії, тип даних – цілі числа int.
 	int lampWeight; //вага лампи, тип даних – цілі числа int
 	boolean wifiControl; //підтримка керування зі смартфону, тип даних - булева змінна, приймаюча значення true чи false.
-    int lampBrightness;
+	int lampBrightness;
     int lampColorTone; //колір світопередачі (теплий, холодний)
 	
 	void turnOn(){
