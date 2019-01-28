@@ -1,23 +1,20 @@
 package Lesson1;
 
-public class PC
-
-{   
+public class PC {   
 	String pcFirmware; //прошивка (UEFI, BIOS), тип даних - текстовий рядок String.
-    String pcOS; //опереційна система, тип даних – текстовий рядок String.
-    String processorArchitecture; //архітектура процесора, x86, x64, ARM і т.д, тип даних – текстовий рядок String.
-    boolean discreteGraphicsCard; //атрибут наявності дискретної відеокарти, тип даних - булева змінна, приймаюча значення true чи false.
+	String pcOS; //опереційна система, тип даних – текстовий рядок String.
+	String processorArchitecture; //архітектура процесора, x86, x64, ARM і т.д, тип даних – текстовий рядок String.
+	boolean discreteGraphicsCard; //атрибут наявності дискретної відеокарти, тип даних - булева змінна, приймаюча значення true чи false.
     
-    void turnOn() {
-}
+	void turnOn() {
+	}
 
-    void turnOff(){
-}
+	void turnOff(){
+	}
 
-    void reboot(){
-}
+	void reboot(){
+	}
     
-    void enableAutoUpdate(){
+	void enableAutoUpdate(){
     }
-    
 }
