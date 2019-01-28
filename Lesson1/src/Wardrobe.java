@@ -12,7 +12,7 @@ public class Wardrobe {
 	void closeDoor(){
 	}
     
-	void enableOpenDoorLight(){
+	void enableDoorLight(){
     	//ввімкнення підсвітки шафи, при відкритті дверей.
 	}
 }
