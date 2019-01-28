@@ -1,8 +1,6 @@
 package Lesson1;
 
-public class Airplane 
-
-{   
+public class Airplane {   
 	String airplanePurpose; //класифікація літаків за призначенням, військові, пасажирські, вантажні тощо. Тип даних - текстовий рядок String.
 	String airplaneFuelType; // тип пального.
 	int airplineNumberOfEngines; //кількість двигунів, тип даних – цілі числа int.
@@ -13,11 +11,11 @@ public class Airplane
     boolean refuelingInTheAir;  //атрибут можливості заправки літака в повітрі, тип даних - булева змінна, приймаюча значення true чи false.
     
     void activateAutopilot(){
-}
+    }
 
     void turnOnTheLights(){
     	//включити підсвітку панелі приборів.
-}
+    }
     
     void turnOnHeating(){
     	//включити обігрів салону.
