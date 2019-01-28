@@ -9,7 +9,7 @@ public class Drone {
     boolean smartphoneControl; //підтримка керування дроном зі смартфону, тип даних - булева змінна, приймаюча значення true чи false.
     
     void startFlight(){
-}
+    }
     
     void stopFlight(){
     }
