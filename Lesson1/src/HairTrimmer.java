@@ -2,11 +2,11 @@
 public class HairTrimmer 
 
 {   
-	String brand; //назва виробника. Тип даних - текстовий рядок String.
-	String cuttingLengths;
-    int speeds;
-    int chargeTime;
-    boolean battery;
+	String trimmerBrand; //назва виробника. Тип даних - текстовий рядок String.
+	String trimmerCuttingLengths;
+    int trimmerSpeeds;
+    int trimmerChargeTime;
+    boolean trimmerBattery;
     
     void startTrimmer(){
     	//ввімкнути тример

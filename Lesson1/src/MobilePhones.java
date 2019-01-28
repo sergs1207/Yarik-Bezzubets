@@ -3,11 +3,11 @@ package Lesson1;
 public class MobilePhones 
 
 {   
-	String OS; //опереційна система, тип даних – текстовий рядок String.
-	String Colour; // колір телефону.
-	float displayResolution; //діагональ екрану.
-    int issueDate; //дата випуску, тип даних – цілі числа int.
-    int weight; //вага телефону, тип даних – цілі числа int.
+	String phoneOS; //опереційна система, тип даних – текстовий рядок String.
+	String phoneColour; // колір телефону.
+	float phoneDisplayResolution; //діагональ екрану.
+    int phoneIssueDate; //дата випуску, тип даних – цілі числа int.
+    int phoneWeight; //вага телефону, тип даних – цілі числа int.
     boolean qiWirelessCharge;  //підтримка бездротвої зарядки телефонк, тип даних - булева змінна, приймаюча значення true чи false.
     
     void enableAdaptiveBrightness(){

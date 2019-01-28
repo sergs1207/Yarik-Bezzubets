@@ -3,7 +3,7 @@ package Lesson1;
 public class AlcoholDrinks 
 
 {   
-	String country; //країна виробник.
+	String alcoholCountry; //країна виробник.
 	String alcoholType; //тип спирту, з якого вироблено алкогольний напий, зерновий, виноградний і т.д. 
 	byte ABV; //вміст спирту в напої.
     float bottleVolume; //об'єм бутилки.
