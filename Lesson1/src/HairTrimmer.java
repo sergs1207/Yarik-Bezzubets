@@ -2,7 +2,7 @@ public class HairTrimmer
 
 {   
 	String trimmerBrand; //назва виробника. Тип даних - текстовий рядок String.
-	String trimmerCuttingLengths;
+	int trimmerCuttingLengths;
 	int trimmerSpeed;
 	int trimmerWorkTime;
 	boolean trimmerBattery;
@@ -16,6 +16,19 @@ public class HairTrimmer
 		trimmerSpeed=0;
 	}
     
-	public void chargeTrimmerBattery(){
+	public void trimmerMaxSpeed(){
+		//зменшує значення атрибута trimmerWorkTime на 20
+	}
+	
+	private void trimmerMinSpeed(){
+		//збільшує значення атрибута trimmerWorkTime на 20
+	}
+	
+	private void installSmallerLengths(){
+		//зменшує значення атрибута trimmerCuttingLengths на 1 
+	}
+	
+	private void installLargeLengths(){
+		//збільшує значення атрибута trimmerCuttingLengths на 1
 	}
 }

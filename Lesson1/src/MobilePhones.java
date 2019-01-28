@@ -15,7 +15,7 @@ public class MobilePhones
 	}
 
 	public void stopCall(){
-		//зменшуэ значення атрибуту phoneProcessorTemperature на 5.
+		//зменшує значення атрибуту phoneProcessorTemperature на 5.
 	}
     
 	public void enablePhonePay(){
