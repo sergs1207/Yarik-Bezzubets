@@ -7,10 +7,13 @@ public class SnowRemovalMachines
 	int machinesWeight;
 	boolean electricStart;  //електричний запуск, тип даних - булева змінна, приймаюча значення true чи false.
     
-	void startCleaningSnow(){
+	public void startCleaningSnow(){
+		//збільшує значення атрибута machineSpeeds на 1.
 	}
 
-	void stopCleaningSnow(){
+	public void stopCleaningSnow(){
+		int machineSpeeds;
+		machineSpeeds=0;
 	}
     
 	void turnOnHeadlight(){
