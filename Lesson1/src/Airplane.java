@@ -7,22 +7,28 @@ public class Airplane
 	String airplaneFuelType; //тип пального.
 	int airplineNumberOfEngines; //кількість двигунів, тип даних – цілі числа int.
 	int airplaneSpeed;
-	int airplineWeight; //вага літака, тип даних – цілі числа int.
+	boolean airplaneDashboardLight; // підсвітка панелі приладів
+	boolean airplaneAutopilot;
 	int emergencyExit; //аварійні виходи.
 	int passengerCompartment; //кількість пасажирських місць.
     
-	void activateAutopilot(){
+	public void enadleAutopilot(){
+		boolean airplaneAutopilot;
+		airplaneAutopilot = true;
+    }
+	
+	public void disableAutopilot(){
+    	boolean airplaneAutopilot;
+    	airplaneAutopilot = false;
     }
 
-	void turnOnTheLights(){
-    	//включити підсвітку панелі приборів.
+	public void turnOnDashboardLights(){
+    	boolean airplaneDashboardLight;
+    	airplaneDashboardLight = true;
     }
     
-	void turnOnHeating(){
-    	//включити обігрів салону.
-    }
-    
-	void openСhassis(){
-    	//активувати відкриття шассі.
+	private void turnOffDashboardLights(){
+    	boolean airplaneDashboardLight;
+    	airplaneDashboardLight = false;
     }
 }

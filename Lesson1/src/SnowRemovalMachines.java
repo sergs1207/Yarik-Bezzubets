@@ -5,6 +5,7 @@ public class SnowRemovalMachines
 	String machinesFuelType;
 	int machineSpeeds;
 	int machinesWeight;
+	boolean machineHeadLight;
 	boolean electricStart;  //електричний запуск, тип даних - булева змінна, приймаюча значення true чи false.
     
 	public void startCleaningSnow(){
@@ -17,5 +18,7 @@ public class SnowRemovalMachines
 	}
     
 	pubic void turnOnHeadlight(){
+		boolean machineHeadLight;
+		machineHeadLight = true;
 	}
 }
