@@ -6,22 +6,22 @@ public class Airplane {
 	int airplineIssueDate; //дата випуску, тип даних – цілі числа int.
 	String airplaneFuelType; // тип пального.
 	int airplineNumberOfEngines; //кількість двигунів, тип даних – цілі числа int.
-    int airplineWeight; //вага літака, тип даних – цілі числа int.
-    int emergencyExit; //аварійні виходи.
-    int passengerCompartment; // Кількість пасажирських місць.
+	int airplineWeight; //вага літака, тип даних – цілі числа int.
+	int emergencyExit; //аварійні виходи.
+	int passengerCompartment; // Кількість пасажирських місць.
     
-    void activateAutopilot(){
+	void activateAutopilot(){
     }
 
-    void turnOnTheLights(){
+	void turnOnTheLights(){
     	//включити підсвітку панелі приборів.
     }
     
-    void turnOnHeating(){
+	void turnOnHeating(){
     	//включити обігрів салону.
     }
     
-    void openСhassis(){
+	void openСhassis(){
     	//активувати відкриття шассі.
     }
 }
