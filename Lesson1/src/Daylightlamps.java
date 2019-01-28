@@ -8,13 +8,13 @@ public class DaylightLamps
 	boolean wifiControl; //підтримка керування зі смартфону, тип даних - булева змінна, приймаюча значення true чи false.
 	int lampBrightness;
 	int lampColorTone; //колір світопередачі (теплий, холодний)
-	
+
 	void turnOn(){
 	}
-    
+
 	void turnOff(){
 	}
-    
+
 	void activateEnergySafeMode(){
 		//активація режиму збереження енергії
 	}
