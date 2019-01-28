@@ -16,7 +16,6 @@ public class HairTrimmer
 		trimmerSpeed=0;
 	}
     
-	void openBatteryCase(){
-		//вікрити кришку відсіку батереї
+	public void chargeTrimmerBattery(){
 	}
 }

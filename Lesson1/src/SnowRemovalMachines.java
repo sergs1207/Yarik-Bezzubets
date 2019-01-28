@@ -17,7 +17,7 @@ public class SnowRemovalMachines
 		machineSpeeds=0;
 	}
     
-	pubic void turnOnHeadlight(){
+	public void turnOnHeadlight(){
 		boolean machineHeadLight;
 		machineHeadLight = true;
 	}

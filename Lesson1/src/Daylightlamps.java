@@ -23,4 +23,9 @@ public class DaylightLamps
 		boolean lampSafeMode;
 		lampSafeMode = true
 	}
+	
+	private void disableEnergySafeMode(){
+		boolean lampSafeMode;
+		lampSafeMode = false;
+	}
 }

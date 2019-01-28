@@ -1,18 +1,23 @@
 public class AlcoholDrinks
 
 {
-	boolean isUsedInCocktail; // чи підходить алкогольний напій для поєднання із іншими напоями, тип даних - булева змінна, приймаюча значення true чи false.
+	boolean alcoholCocktail; //поєднання із іншими напоями, тип даних - булева змінна, приймаюча значення true чи false.
 	float bottleVolume; //об'єм бутилки.
 	String alcoholCountry; //країна виробник.
-	byte ABV; //вміст спирту в напої.
+	float ABV; //вміст спирту в напої.
 	String alcoholType; //тип спирту, з якого вироблено алкогольний напий, зерновий, виноградний і т.д. 
    
-	void startShakeaCocktail() {
+	public void startShakeCocktail() {
+		boolean alcoholCocktail;
+		alcoholCocktail = true;
     }
 
-	void startDrink(){
+	public void addNonAlcoholDrink(){
+		byte ABV;
+		ABV = 0,01;
     }
 
-	void stopDrink(){
+	public void addMoreABV(){
+		//збільшує значення атрибута ABV на 5.
     }
 }
