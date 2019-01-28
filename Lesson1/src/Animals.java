@@ -1,5 +1,3 @@
-package Lesson1;
-
 public class Animals 
 
 {
@@ -10,12 +8,12 @@ public class Animals
     boolean isWool; //атрибут наличия шерсти, тип данных – булева переменная, принимающая значения true или false.
 
     void goToSleep() {
-}
+    }
 
     void startEating(){
-}
+    }
 
     void startRunning(){
-}
+    }
 
 }

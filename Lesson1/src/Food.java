@@ -1,6 +1,6 @@
-package Lesson1;
+public class Food
 
-public class Food {   
+{   
 	String foodSources; //джерело походження, тваринне чи рослинне.
 	int foodProteins; //вміст білків, тип даних – цілі числа int
 	int foodFats; //вміст жирів, тип даних – цілі числа int

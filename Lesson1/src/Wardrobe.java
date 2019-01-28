@@ -1,5 +1,6 @@
+public class Wardrobe
 
-public class Wardrobe {   
+{   
 	String wardrobeBrand; //назва виробника. Тип даних - текстовий рядок String.
 	String wardrobeModel; //назва моделі.
 	int wardrobeHeight; //висота шафи, тип даних – цілі числа int.

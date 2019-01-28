@@ -1,5 +1,6 @@
+public class SnowRemovalMachines
 
-public class SnowRemovalMachines {   
+{   
 	String machinesBrand; //назва виробника. Тип даних - текстовий рядок String.
 	String machinesFuelType;
 	int machineSpeeds;

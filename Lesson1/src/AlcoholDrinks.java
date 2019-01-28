@@ -1,6 +1,6 @@
-package Lesson1;
+public class AlcoholDrinks
 
-public class AlcoholDrinks {
+{
 	boolean isUsedInCocktail; // чи підходить алкогольний напій для поєднання із іншими напоями, тип даних - булева змінна, приймаюча значення true чи false.
 	float bottleVolume; //об'єм бутилки.
 	String alcoholCountry; //країна виробник.

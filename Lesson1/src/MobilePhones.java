@@ -1,6 +1,6 @@
-package Lesson1;
+public class MobilePhones
 
-public class MobilePhones {
+{
 	String phoneOS; //опереційна система, тип даних – текстовий рядок String.
 	String phoneColour; // колір телефону.
 	float phoneDisplayResolution; //діагональ екрану.

@@ -1,5 +1,6 @@
+public class HairTrimmer
 
-public class HairTrimmer {   
+{   
 	String trimmerBrand; //назва виробника. Тип даних - текстовий рядок String.
 	String trimmerCuttingLengths;
 	int trimmerSpeeds;

@@ -1,6 +1,6 @@
-package Lesson1;
+public class Drone
 
-public class Drone {
+{
 	String droneManufacturer; //назва виробника. Тип даних - текстовий рядок String.
 	String droneModel; // назва моделі.
 	int droneNumberOfEngines; //кількість двигунів, тип даних – цілі числа int.

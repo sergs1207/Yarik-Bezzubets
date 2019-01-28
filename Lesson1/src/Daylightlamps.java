@@ -1,6 +1,6 @@
-package Lesson1;
+public class DaylightLamps
 
-public class DaylightLamps {   
+{   
 	String lampBrand; //назва виробника. Тип даних - текстовий рядок String.
 	String lampModel; //назва моделі.
 	int lampPartNumber; //номер партії, тип даних – цілі числа int.
